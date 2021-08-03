@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/connectWithfb/static/css/main.c40c8a13.chunk.css",
+    "main.js": "/connectWithfb/static/js/main.9d52e1ea.chunk.js",
+    "main.js.map": "/connectWithfb/static/js/main.9d52e1ea.chunk.js.map",
+    "runtime-main.js": "/connectWithfb/static/js/runtime-main.030fa0d2.js",
+    "runtime-main.js.map": "/connectWithfb/static/js/runtime-main.030fa0d2.js.map",
+    "static/js/2.7c644491.chunk.js": "/connectWithfb/static/js/2.7c644491.chunk.js",
+    "static/js/2.7c644491.chunk.js.map": "/connectWithfb/static/js/2.7c644491.chunk.js.map",
+    "static/js/3.707df988.chunk.js": "/connectWithfb/static/js/3.707df988.chunk.js",
+    "static/js/3.707df988.chunk.js.map": "/connectWithfb/static/js/3.707df988.chunk.js.map",
+    "index.html": "/connectWithfb/index.html",
+    "static/css/main.c40c8a13.chunk.css.map": "/connectWithfb/static/css/main.c40c8a13.chunk.css.map",
+    "static/js/2.7c644491.chunk.js.LICENSE.txt": "/connectWithfb/static/js/2.7c644491.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.030fa0d2.js",
+    "static/js/2.7c644491.chunk.js",
+    "static/css/main.c40c8a13.chunk.css",
+    "static/js/main.9d52e1ea.chunk.js"
+  ]
+}
