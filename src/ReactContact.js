@@ -51,8 +51,6 @@ const ReactContact =()=>{
 		}else{
 			alert('please fill all the data');
 		}
-
-
 	    
 	};
 	return(
