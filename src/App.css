@@ -1,38 +1,14 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+*{box-sizing: border-box;}
+body{background: #272626;}
+.wrap_contact{width: 700px;padding: 30px 40px;background: #fff;border-radius:15px;margin: 120px auto}
+.form-group{position: relative;width: 48%;margin-bottom: 15px;margin: 0 3px;}
+form{display: flex;width: 100%;flex-wrap: wrap;}
+input{width: 100%;height: 38px;margin-bottom: 15px;padding: 5px;border-radius: 0;border:0px solid #ddd;border-bottom: 1px solid #ddd;outline: 0;transition: 0.5s;}
+.form-group label{display: block;font-size: 11px;margin-left: 4px;}
+.focus-input{position: absolute;width:0%;background: red;height: 1px;bottom: 15px;left: 0;transition: 0.5s;}
+input:focus~.focus-input{width: 100%;}
+.form-group.textArea{width: 100%;}
+textarea{width: 100%;height: 80px;margin-bottom: 15px;padding: 5px;border-radius: 0;border:0px solid #ddd;border-bottom: 1px solid #ddd;outline: 0;transition: 0.5s;}
+textarea:focus~.focus-input{width: 100%;}
+.textArea .focus-input{bottom: 18px;}
+button{background: #db5461;border-radius: 20px;border: 0;padding: 10px 20px;color: #fff}
